@@ -1,10 +1,13 @@
+ /* *{ 
+    margin: 0px;
+    padding: 0px;
+} */
 /* header styles */
 /* nav */
 .nav-container{
     height: 120px;
     background-color: #FFF;
-    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
-    display: flex;
+   display: flex;
     justify-content: space-around;
     align-items: center;
 }
@@ -56,4 +59,316 @@
 .follow-icon{
     width: 30px;
     height: 25px;
+}
+/* main styles */
+/* banner section */
+.banner-container{
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+    
+}
+.goat{
+    padding-left: 200px;
+    width: 700px;
+    height: 800px;
+    background-image: url('images/Group\ 14.png');
+    background-size: 100%;
+}
+.goat h3{
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.goat h2{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.goat li{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#play{
+    list-style-image: url('images/watch.png');
+}
+#download{
+    list-style-image: url('images/download.png');
+}
+#support{
+    list-style-image: url('images/Frame\ \(1\).png');
+}
+.btn-one{
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    border-radius: 45px;
+   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   margin-right: 20px;
+   margin-top: 15px;
+}
+.btn-two{
+    padding: 20px 40px;
+    color:white;
+    border: none;
+    border-radius: 45px;
+   background: #4EC5F7;
+}
+.goat-img img{
+    margin-right: 30px;
+   width: 750px;
+   height: 700px;
+}
+/* gamer section */
+.gamer{
+    margin-top: 15px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.gamer-img img{
+    width: 860px;
+    height: 490px;
+}
+.gamer-text h3{
+    text-align: right;
+    font-family:'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-right: 25px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-text p{
+    color: #534C64;
+    text-align: right;
+    margin-right: 25px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.gamer-text button{
+    margin-left: 230px;
+}
+.purpose{
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.unleash{
+    color: #534C64;
+    font-family:'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+/* online games */
+.online{
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.online-games{
+    text-align: center;
+}   
+
+.online-games h3{
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.online-games .online-styles{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+.online-games p{
+    margin-top: 20px;
+    color: #534C64;
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+}
+.online-games-card{
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 10px;
+}
+.card img{
+    width: 340px;
+    height: 400px;
+    border-radius: 15px;
+}
+.card p{
+    color: #534C64;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+/* play instantly */
+.play-instant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 120px;
+}
+.play-instant-text{
+    text-align: center;
+    padding-left: 300px;
+}
+
+.play-instant-text h3{
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.play-instant-text .instant{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instant-text p{
+    padding-top: 10px;
+    color: #534C64;
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.play-instant-img .two{
+    position: relative;
+    right: 83%;
+    top: 100px;
+}
+/* responsive styles */
+/* mobile devices */
+@media screen and (max-width:576px) {
+    html,head,body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .nav-container,
+    .menus,
+    .online,
+    .play-instant
+    {
+        flex-direction: column ;
+    }
+   .nav-container,
+    header{
+        padding: 50px 20px;
+    }
+    .follow-us{
+       width: 250px;
+       height: 30px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        padding-top: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 120px;
+        
+    }
+    .goat{
+        width: 100%;
+        padding-left: 35px;
+        align-items: center;
+        font-size: 30px;
+        /* margin-left: 100px;
+        margin-right: 50px; */
+    }
+    .goat h3{
+        padding-top: 30px;
+    }
+   .goat-img img{
+        align-items: center;
+        width: 100%;
+        margin-right: 0px;
+        height: 350px;
+    }
+    .online-games h3{
+         font-size: 30px;
+         font-weight: 700;
+
+    }
+    .online-games .online-styles{
+         font-size: 30px; 
+         font-weight: 700;
+    }
+     .online-games-card{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        gap: 15px;
+        /* padding-right: 0px;
+        padding-left: 20px; */
+    }
+    .card p{
+        width: 680px;
+        height: 85px;
+        text-align: center;
+    }
+    .play-instant-text{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 100px;
+    }
+    .play-instant-img{
+         padding-left: 20px;
+         text-align: center;
+    }
+    .play-instant-img img{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        top: 110px;
+      
+    }
+    .play-instant-img .two{
+        /* padding-left: 0px; */
+        width: 220px;
+        height: 260px;
+        position: relative;
+        right:28%;
+        top: 20%; 
+    }
 }
