@@ -63,7 +63,7 @@
 /* main styles */
 /* banner section */
 .banner-container{
-    height: 1000px;
+    height: 980px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -137,9 +137,9 @@
 }
 /* gamer section */
 .gamer{
-    margin-top: 15px;
+    margin-top: 0px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    height: 600px;
+    /* height: 600px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -403,18 +403,19 @@
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width:576px) {
-        html,head,body{
+        /* html,head,body{
         width: 100%;
         height: 100%;
         margin: 0px;
         padding: 0px;
-        overflow-x: hidden;
-    }   
+        overflow-x: hidden; */
+      
     .nav-container,
     .menus,
     .online,
     .play-instant,
-    .foot
+    .foot,
+    .gamer
     {
         flex-direction: column ;
     }
@@ -505,12 +506,10 @@
         margin-bottom: 0px; 
     }
 .icon{
-     margin-left: 90px; 
-    
+    margin-left: 90px; 
     display: grid;
     grid-template-columns: repeat(3,1fr); 
-    /* padding-left: 10px; */
-    /* padding-bottom: 300px;  */
+   
 }
 .icons{
     width: 90px;
@@ -556,8 +555,51 @@
    
  }
  .foot-menus{
-    padding-left: 210px;
+    text-align: center;
+    padding-left: 200px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
  }
+ .foot-menus li{
+    width: 160px;
+    font-size: 15px;
+ }
+ .gamer{
+    height: 300px;
+    margin-bottom: 400px;
+    padding-top: 60px;
+    padding-left: 0px;
+ }
+ .gamer-img img{
+    /* margin-bottom: 900px; */
+    padding-right: 300px;
+     width: 100%; 
+     padding-bottom: 0px;
+}
+.gamer-text{
+    
+    margin-top: 3px;
+    margin-bottom:;
+    width: 110%;
+    text-align: center;
+}
+.gamer-text h3{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding-left: 30px;
+    text-align: center;
+}
+.gamer-text p{
+    padding-left: 30px;
+    text-align: center;
+}
+.gamer-text .unleash{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.gamer-text button{
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
 }
