@@ -741,7 +741,7 @@
             width: 400px;
             height: 400px;
             position: relative;
-            /* bottom: ; */
+            
         }
         .play-instant-img .two{
         width: 220px;
@@ -756,8 +756,9 @@
     flex-direction:column-reverse;
 }
 .play-games-text{
-    padding-top: 120px;
-    padding-left: 320px;
+    padding-top: 40px;
+    padding-left: 280px;
+    padding-right: 250px;
 }
 .play-games-img img{
     padding-left: 0px;
